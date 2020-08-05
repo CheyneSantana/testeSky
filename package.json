@@ -18,5 +18,10 @@
     "moment": "^2.27.0",
     "mongoose": "^5.9.27",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0"
   }
 }
