@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/skyapi',
+mongoose.connect('mongodb://testeSky:sky123@host:port/dbname/skyapi',
     {
         useFindAndModify: false, 
         useNewUrlParser: true,
