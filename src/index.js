@@ -11,3 +11,10 @@ app.use(bodyParser.urlencoded({
 require('./app/controllers/index')(app);
 
 app.listen(3300);
+
+const server = app.listen(8080, () => {
+    const host = server.address().address;
+    const port = server.address().port;
+
+    console.log(`Example app listening at http://${host}:${port}`);
+});
